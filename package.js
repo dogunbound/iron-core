@@ -1,12 +1,12 @@
 Package.describe({
   name: 'iron:core',
   summary: 'Iron namespace and utilities.',
-  version: '1.0.11',
+  version: '1.0.12',
   git: 'https://github.com/iron-meteor/iron-core'
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@0.9.2');
+  api.versionsFrom('METEOR@1.8.1');
 
   // dependencies
   api.use('underscore');
